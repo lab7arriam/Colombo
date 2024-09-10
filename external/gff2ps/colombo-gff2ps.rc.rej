@@ -1,0 +1,54 @@
+***************
+*** 1,6 ****
+- ########################################
+- ##   DEFAULT CUSTOM FILE FOR GFF2PS   ##
+- ########################################
+  #
+  #
+  #
+--- 1,6 ----
++ ############################################################
++ ##  CUSTOM FILE FOR GFF2PS TO USE WITH COLOMBO/SIGI-HMM   ##
++ ############################################################
+  #
+  #
+  #
+***************
+*** 10,17 ****
+  page_orientation=Landscape
+  page_number=1
+  blocks_x_page=10
+- #nucleotides_x_line=10000
+  zoom=*..*
+  # major_tickmarks_num=10
+  # minor_tickmarks_num=10
+  major_tickmarks_nucleotides=5000
+--- 10,20 ----
+  page_orientation=Landscape
+  page_number=1
+  blocks_x_page=10
++ nucleotides_x_line=50000
+  zoom=*..*
++ #
++ header_style=none
++ #
+  # major_tickmarks_num=10
+  # minor_tickmarks_num=10
+  major_tickmarks_nucleotides=5000
+***************
+*** 41,47 ****
+  PUTAL::feature_color=red
+  OUTPUTAL::feature_color=darkred
+  PHX::feature_color=blue
+- OUTNORMAL::feature_color=lightred
+  INCON::feature_color=verylightred
+  
+  
+--- 44,50 ----
+  PUTAL::feature_color=red
+  OUTPUTAL::feature_color=darkred
+  PHX::feature_color=blue
++ OUTNORMAL::feature_color=darkgrey
+  INCON::feature_color=verylightred
+  
+  

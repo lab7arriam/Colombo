@@ -1,0 +1,2 @@
+clear
+java -cp .:./libs/biojava.jar:./libs/bytecode.jar:./libs/commons-math.jar -Xms256m -Xmx1024m Colombo $* > error.log

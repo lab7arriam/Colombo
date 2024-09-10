@@ -1,0 +1,1 @@
+java -cp .:./libs/biojava.jar:./libs/bytecode.jar:./libs/commons-math -Xms256m -Xmx1400m mSigiHMM $*
